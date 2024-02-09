@@ -80,10 +80,7 @@ pub fn query(deps: Deps<KujiraQuery>, _: Env, msg: QueryMsg) -> Result<Binary, C
                 let q = KujiraQuerier::new(&deps.querier);
                 let res = q.query_exchange_rate(oracle_config.oracle_denom.to_string())?;
                 let price = res.normalize(oracle_config.decimals);
-                price
-                    .atomics()
-                    .mul(coin.amount)
-                    .div(Uint128::new(10).pow(oracle_config.decimals.into()))
+                price * coin.amount
             } else {
                 return Err(ContractError::InvalidDenom(coin.denom));
             };
