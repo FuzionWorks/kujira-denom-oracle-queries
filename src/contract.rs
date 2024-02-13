@@ -1,14 +1,12 @@
-use std::ops::{Div, Mul};
-
 #[cfg(not(feature = "library"))]
 use cosmwasm_std::entry_point;
 use cosmwasm_std::{
-    ensure, to_json_binary, Binary, Deps, DepsMut, Env, MessageInfo, Response, StdResult, Uint128,
+    ensure, to_json_binary, Binary, Coin, Deps, DepsMut, Env, MessageInfo, Response, StdResult,
 };
 use cw2::set_contract_version;
 use kujira::{KujiraMsg, KujiraQuerier, KujiraQuery};
 
-use crate::msg::Config;
+use crate::msg::{Config, OraclePriceResponse};
 use crate::state::CONFIG;
 use crate::{ContractError, ExecuteMsg, InstantiateMsg, MigrateMsg, QueryMsg};
 
@@ -76,7 +74,7 @@ pub fn query(deps: Deps<KujiraQuery>, _: Env, msg: QueryMsg) -> Result<Binary, C
                 .iter()
                 .find(|x| x.denom.to_string() == coin.denom);
 
-            let value = if let Some(oracle_config) = oracle_config {
+            let amount = if let Some(oracle_config) = oracle_config {
                 let q = KujiraQuerier::new(&deps.querier);
                 let res = q.query_exchange_rate(oracle_config.oracle_denom.to_string())?;
                 let price = res.normalize(oracle_config.decimals);
@@ -84,7 +82,13 @@ pub fn query(deps: Deps<KujiraQuery>, _: Env, msg: QueryMsg) -> Result<Binary, C
             } else {
                 return Err(ContractError::InvalidDenom(coin.denom));
             };
-            to_json_binary(&value)
+            let oracle_price_response = OraclePriceResponse {
+                price: Coin {
+                    amount,
+                    denom: "USD".to_string(),
+                },
+            };
+            to_json_binary(&oracle_price_response)
         }
     }?)
 }

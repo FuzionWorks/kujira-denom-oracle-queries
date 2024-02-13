@@ -24,8 +24,13 @@ pub enum ExecuteMsg {
 pub enum QueryMsg {
     #[returns(Config)]
     Config {},
-    #[returns(Coin)]
+    #[returns(OraclePriceResponse)]
     Price { coin: Coin },
+}
+
+#[cw_serde]
+pub struct OraclePriceResponse {
+    pub price: Coin,
 }
 
 #[cw_serde]
