@@ -1,0 +1,40 @@
+{
+    "owner": "kujira16qpvzhmawvsm8mcj4hdvtz25dadatdhhgw79xa",
+    "oracle_config": [
+        {
+            "denom": "ukuji",
+            "oracle_denom": "KUJI",
+            "decimals": 6
+        },
+        {
+            "denom": "factory/kujira1ltvwg69sw3c5z99c6rr08hal7v0kdzfxz07yj5/demo",
+            "oracle_denom": "ATOM",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/DCDCAF4399A0804D177740C634E305B2CB3A0137789A26EDC3E4B18FC4F2D176",
+            "oracle_denom": "BTC",
+            "decimals": 18
+        },
+        {
+            "denom": "ibc/A1E1A20C1E4F2F76F301DA625CC476FBD0FCD8CA94DAF60814CA5257B6CD3E3E",
+            "oracle_denom": "LUNA",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+            "oracle_denom": "OSMO",
+            "decimals": 6
+        },
+        {
+            "denom": "factory/kujira1r85reqy6h0lu02vyz0hnzhv5whsns55gdt4w0d7ft87utzk7u0wqr4ssll/uusk",
+            "oracle_denom": "USDT",
+            "decimals": 6
+        },
+        {
+            "denom": "factory/kujira1mc8r0mcrye0tcwldn82fyyaa4zv6vve9j2me6h/uhans",
+            "oracle_denom": "ETH",
+            "decimals": 18
+        }
+    ]
+}

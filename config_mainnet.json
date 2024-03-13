@@ -1,0 +1,250 @@
+{
+    "owner": "kujira1l7ll7gmyk6ze269tt8exfm909xc3pptr5ghj86",
+    "oracle_config": [
+        {
+            "denom": "ibc/7023F9629A70F8112764D959D04F52EA3115A0AED3CEE59694799FD8C91A97FA",
+            "oracle_denom": "AKT",
+            "decimals": 6
+        },
+        {
+            "denom": "factory/kujira1n3fr5f56r2ce0s37wdvwrk98yhhq3unnxgcqus8nzsfxvllk0yxquurqty/ampKUJI",
+            "oracle_denom": "AMPKUJI",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/96179F5B44CCC15E03AB43D7118E714B4D5CE8F187F7D8A60F2A514299761EA9",
+            "oracle_denom": "ARB",
+            "decimals": 18
+        },
+        {
+            "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+            "oracle_denom": "ATOM",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/004EBF085BBED1029326D56BE8A2E67C08CECE670A94AC1947DF413EF5130EB2",
+            "oracle_denom": "AVAX",
+            "decimals": 18
+        },
+        {
+            "denom": "ibc/C01154C2547F4CB10A985EA78E7CD4BA891C1504360703A37E1D7043F06B5E1F",
+            "oracle_denom": "AXL",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/DADB399E742FCEE71853E98225D13E44E90292852CD0033DF5CABAB96F80B833",
+            "oracle_denom": "BNB",
+            "decimals": 18
+        },
+        {
+            "denom": "ibc/BBC45F1B65B6D3C11C3C56A9428D38C3A8D03944473791C52DFB7CD3F8342CBC",
+            "oracle_denom": "CRO",
+            "decimals": 8
+        },
+        {
+            "denom": "ibc/B37E4D9FB5B30F3E1E20A4B2DE2A005E584C5C822C44527546556AE2470B4539",
+            "oracle_denom": "DOT",
+            "decimals": 10
+        },
+        {
+            "denom": "ibc/9012F7E79EACC34CE81A4404ECBEED5A5DFFD61CCEE23F2B8600BAC948C483E6",
+            "oracle_denom": "DYM",
+            "decimals": 18
+        },
+        {
+            "denom": "ibc/E543A9F9E5BA7871F1095CB3B65D018472D88696611B95BABED8AADA89C2741C",
+            "oracle_denom": "FET",
+            "decimals": 18
+        },
+        {
+            "denom": "ibc/E67ADA2204A941CD4743E70771BA08E24885E1ADD6FD140CE1F9E0FEBB68C6B2",
+            "oracle_denom": "FTM",
+            "decimals": 18
+        },
+        {
+            "denom": "factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/ufuzn",
+            "oracle_denom": "FUZN",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/C8D63703F5805CE6A2B20555139CF6ED9CDFA870389648EB08D688B94B0AE2C1",
+            "oracle_denom": "GLMR",
+            "decimals": 18
+        },
+        {
+            "denom": "ibc/5A3DCF59BC9EC5C0BB7AA0CA0279FC2BB126640CB8B8F704F7BC2DC42495041B",
+            "oracle_denom": "INJ",
+            "decimals": 18
+        },
+        {
+            "denom": "ibc/EFF323CC632EC4F747C61BCE238A758EFDB7699C3226565F7C20DA06509D59A5",
+            "oracle_denom": "JUNO",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/8ACBD59272835F06D7083A1D0AB866D9B09BF76754A1C7DC6AEBE0DB3D84EA3B",
+            "oracle_denom": "KAVA",
+            "decimals": 6
+        },
+        {
+            "denom": "ukuji",
+            "oracle_denom": "KUJI",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/FC59D6840A41252352263CEA2B832BB86D68D03CBA194263CB9F3C15946796FB",
+            "oracle_denom": "LINK",
+            "decimals": 18
+        },
+        {
+            "denom": "ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986",
+            "oracle_denom": "LUNA",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/119334C55720942481F458C9C462F5C0CD1F1E7EEAC4679D674AA67221916AEA",
+            "oracle_denom": "LUNC",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/A64467480BBE4CCFC3CF7E25AD1446AA9BDBD4F5BCB9EF6038B83D6964C784E6",
+            "oracle_denom": "MATIC",
+            "decimals": 18
+        },
+        {
+            "denom": "factory/kujira1643jxg8wasy5cfcn7xm8rd742yeazcksqlg4d7/umnta",
+            "oracle_denom": "MNTA",
+            "decimals": 6
+        },
+        {
+            "denom": "factory/kujira1aaudpfr9y23lt9d45hrmskphpdfaq9ajxd3ukh/unstk",
+            "oracle_denom": "NSTK",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/173E561B8E97AB49FBA540663C1D02DC1B2D2871B5C8434935982CB15B0C7765",
+            "oracle_denom": "NTRN",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23",
+            "oracle_denom": "OSMO",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/B4DCACF7753C05040AF0A7BF2B583402C4B8C9B0A86FCECE32EF63CB7F0A46B3",
+            "oracle_denom": "PAXG",
+            "decimals": 18
+        },
+        {
+            "denom": "factory/kujira1m96ucsfpt2yy72w09z2rxjdj38y5qd8lqx5jtggnejmdua2ynpnsxyvjex/urcpt",
+            "oracle_denom": "QCKUJI",
+            "decimals": 6
+        },
+        {
+            "denom": "factory/kujira1qzu3up50auxhqyzfq56znuj8n38q2ra7daaf9ef7vg8gu66jh4fqd2wd2y/urcpt",
+            "oracle_denom": "QCMNTA",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/107ED1024220D5EE2A3E81BACD4A0B6709687F09043A53348E6D7E7647375593",
+            "oracle_denom": "RIO",
+            "decimals": 18
+        },
+        {
+            "denom": "ibc/A358D7F19237777AF6D8AD0E0F53268F8B18AE8A53ED318095C14D6D7F3B2DB5",
+            "oracle_denom": "SCRT",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/590CE97A3681BC2058FED1F69B613040209DF3F17B7BD31DFFB8671C4D2CD99B",
+            "oracle_denom": "SHD",
+            "decimals": 8
+        },
+        {
+            "denom": "ibc/E5CA126979E2FFB4C70C072F8094D07ECF27773B37623AD2BF7582AD0726F0F3",
+            "oracle_denom": "SOL",
+            "decimals": 8
+        },
+        {
+            "denom": "ibc/A7A5C44AA67317F1B3FFB27BAFC89C9CC04F61306F6F834F89A74B8F82D252A1",
+            "oracle_denom": "SOMM",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/4F393C3FCA4190C0A6756CE7F6D897D5D1BE57D6CCB80D0BC87393566A7B6602",
+            "oracle_denom": "STARS",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/0306D6B66EAA2EDBB7EAD23C0EC9DDFC69BB43E80B398035E90FBCFEF3FD1A87",
+            "oracle_denom": "STATOM",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/086C1B2E9E611F23D3C9159C858D3F4C6A911D348DFB916A11AE306A865A77A8",
+            "oracle_denom": "STKATOM",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/F97BDCE220CCB52139C73066E36C45EC7EDCEEF1DAFF891A34F4FBA195A2E6E8",
+            "oracle_denom": "STOSMO",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/EB5ADB11D03C6FE1D02BC7F44ED543A8DCFD950A420C5DED1E2B23EE931A0248",
+            "oracle_denom": "TIA",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/0A88A08F3E9573DB9D8CB74AA3746F6D23C41C3EE7B6CC5AA4695A1DD74FF86B",
+            "oracle_denom": "UNI",
+            "decimals": 18
+        },
+        {
+            "denom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
+            "oracle_denom": "USDC",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
+            "oracle_denom": "USDC",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/F2331645B9683116188EF36FC04A809C28BD36B54555E8705A37146D0182F045",
+            "oracle_denom": "USDT",
+            "decimals": 6
+        },
+        {
+            "denom": "factory/kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7/uusk",
+            "oracle_denom": "USK",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/301DAF9CB0A9E247CD478533EF0E21F48FF8118C4A51F77C8BC3EB70E5566DBC",
+            "oracle_denom": "WBTC",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7",
+            "oracle_denom": "WETH",
+            "decimals": 18
+        },
+        {
+            "denom": "ibc/21F041CFE99994E0D027D0C5F72A9EB6224CBCAF5A6AD5DDB75F67A781D46C68",
+            "oracle_denom": "WHALE",
+            "decimals": 6
+        },
+        {
+            "denom": "factory/kujira12cjjeytrqcj25uv349thltcygnp9k0kukpct0e/uwink",
+            "oracle_denom": "WINK",
+            "decimals": 6
+        },
+        {
+            "denom": "ibc/B572E6F30E7C33D78A50D8B4E973A9C118C30F848DF31A95FAA5E4C7450A8BD0",
+            "oracle_denom": "WSTETH",
+            "decimals": 18
+        }
+    ]
+}
